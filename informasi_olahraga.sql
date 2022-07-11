@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 06, 2022 at 09:06 AM
+-- Generation Time: Jul 11, 2022 at 08:38 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -141,7 +141,7 @@ CREATE TABLE `profilweb` (
 --
 
 INSERT INTO `profilweb` (`profilweb_id`, `judul_profilweb`, `isi`) VALUES
-('710277b0-26e5-4500-85ca-b71b87aea3c8', 'Informasi Olahraga', '<p>Disini ......</p>\r\n');
+('710277b0-26e5-4500-85ca-b71b87aea3c8', 'Informasi Olahraga', '<p><strong>Website Informasi Olahraga</strong></p>\r\n\r\n<p>Adalah tempat dimana informasi olahraga yang ada di indonesia, seperti Basket, Sepak Bola, Badminton, dll.</p>\r\n\r\n<p>Website ini dibuat untuk menyelasaikan tugas Rekayasa Perangkat Lunak.</p>\r\n\r\n<p>Website ini dibuat oleh 4IA12 :  </p>\r\n\r\n<p>Kelompok 5 </p>\r\n\r\n<ol>\r\n <li>Galing Rohmi Dani Santjoyo (52418863)</li>\r\n <li>Mochamad Rizky Lubis (54418173)</li>\r\n <li>Reanaldy Wiriatama (55418958)</li>\r\n</ol>\r\n\r\n<p> </p>\r\n\r\n<p>Gunadarma University </p>\r\n\r\n<p> </p>\r\n');
 
 -- --------------------------------------------------------
 
@@ -164,10 +164,9 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`user_id`, `nama`, `username`, `password`, `level`, `lastLogin`) VALUES
 ('82829b15-de76-4cfd-9d32-7939584c70a5', 'reza', 'reza', '$2y$10$VLfbO01GIagiidlHYqLU5eaSvZ46XkZ8V/.KOs/pe0H9ULHS4p/Nu', 'superAdmin', '1656252482'),
-('921e07dc-8890-4698-bf5f-fd6751b573f2', 'Sasuke', 'Sasuke', '$2y$10$BbvNISnUWnWCzq7F4ZO2tOvWGuCz.TTBy.EHKl8NUuLktH11SpS1S', 'operator', ''),
+('a49526ce-c900-4d85-93a4-448581160af9', 'reanaldy', 'reanaldy', '$2y$10$TaA0jWDAzBJXl5rzoiilCOtsMe0WP6il7PoMiuM602zr/qOzKTxki', 'operator', ''),
 ('c9c29754-0f0f-4fc0-b3d4-8bf7d3952936', 'rizki', 'rizki', '$2y$10$VdVOkwsM.usFMj.4iR/ONeQtyK0QxftEWOjTGqe6KjaIouivrQX5e', 'admin', '1656325586'),
-('cb42fcf0-17ac-4139-b6b5-636418b1ff79', 'galing', 'galing', '$2y$10$8oCbTlKKBPaPbqdFr7.0gOjKQthkith5TPx.TcN2LbenmZXiT74E2', 'superAdmin', '1656960035'),
-('e3f54f27-541a-4159-ba91-2166bf18a0cf', 'ananda', 'ananda', '$2y$10$amO8CyofrDmSI7xxcUtV8OttJ1VpyR7.liTt7o/Oq1RVsU2tqoTFy', 'operator', '1656325329');
+('cb42fcf0-17ac-4139-b6b5-636418b1ff79', 'galing', 'galing', '$2y$10$8oCbTlKKBPaPbqdFr7.0gOjKQthkith5TPx.TcN2LbenmZXiT74E2', 'superAdmin', '1657520038');
 
 --
 -- Indexes for dumped tables

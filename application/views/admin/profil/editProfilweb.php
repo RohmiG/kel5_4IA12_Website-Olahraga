@@ -1,6 +1,6 @@
 <!-- PAge edit profil -->
 <div class="col-md-10 col-md-offset-1 marginTop60px marginBottom100px">
-	<h3 class="judulAbuAbu alignCenter">Edit Profilweb</h3>
+	<h3 class="judulAbuAbu alignCenter">Edit Profil Web</h3>
 	<?php if($profilweb??false) : ?>
 	<?= form_open('adminProfilweb/editProfilweb',['class'=>'form']); ?>
 		<input type="hidden" name="berita_id" value="<?= $profilweb->profilweb_id??''; ?>">

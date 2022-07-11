@@ -1,6 +1,6 @@
 <!-- PAge insert profil -->
 <div class="col-md-10 col-md-offset-1 marginTop60px marginBottom100px">
-	<h3 class="judulAbuAbu alignCenter">Insert Profilweb</h3>
+	<h3 class="judulAbuAbu alignCenter">Insert Profil Web</h3>
 
 	<?= form_open('adminProfilweb/insertProfilweb',['class'=>'form']); ?>
 		<?= $errors['judul_profilweb']??''; ?>
